@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0",
+        "name": "Beserk T-shirt Black & White",
+        "img": "beserkTshirtBlackWhite.jpg"
+    },
+    {
+        "id": "1",
+        "name": "Beserk T-shirt Black & Red",
+        "img": "beserkTshirtBlackRed.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Venom T-shirt Black & White",
+        "img": "venomTshirtBlackWhite.jpg"
+    },
+    {
+        "id": "3",
+        "name": "SpiderMan T-shirt White",
+        "img": "spidermanTshirtWhiteBlack.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Beserk T-shirt Grey",
+        "img": "beserkTshirtGreyBlack.jpg"
+    },
+    {
+        "id": "5",
+        "name": "SpiderMan T-shirt Black",
+        "img": "spidermanTshirtBlackRed.jpg"
+    }
+]
