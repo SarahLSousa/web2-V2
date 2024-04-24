@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Alpha Ego | Home </title>
+  <link href="css\style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo-name">
+        <h1>Alpha Ego</h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item clothes"><a href="#" class="nav-link">Clothes▼</a>
+          	<ul class="dropdown">
+          		<li class="nav-item">	<a href="tshirt.html" class="nav-link">T-Shirts</a></li>
+        			<li class="nav-item"><a href="sweatshirt.html" class="nav-link">Sweatshirt</a></li>
+     				  <li class="nav-item"><a href="short.html" class="nav-link">Shorts</a></li> 
+       	  	</ul>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Production?</a></li>
+     			<a href="cart.html"><i class="fa-solid fa-cart-shopping nav-item" id="cart-shopping"></i></a>
+        </ul>
+      </div>
+      <a href="creatAccount.html"><i class="fa-solid fa-user nav-item" id="login"></i></a>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="./icons/menu.svg"></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item clothes"><a href="#" class="nav-link">Clothes <span>▼</span></a>
+        	<ul class="dropdown">
+          		<li class="nav-item"><a href="tshirt.html" class="nav-link"> T-Shirts</a></li>
+        			<li class="nav-item"><a href="sweatshirt.html" class="nav-link">Sweatshirt</a></li>
+     				  <li class="nav-item"><a href="short.html" class="nav-link">Shorts</a></li> 
+          </ul>
+        </li>
+        <li class="nav-item" id="mobile-contact"><a href="#" class="nav-link">Contact Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">How it is producted?</a></li> 
+      </ul>
+    </div>
+	</header>        
+  <main>
+    <div id="video-principal">
+      <video width="100%" id="videoBatman" autoplay loop>
+  			<source src="./video/batman.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="conteiner-card"> 
+      <div class="card card1">
+        <img src="./img/batman.jpeg" alt="Batman">
+      	<h2>Birth</h2>
+      	<p>At the heart of Alpha Ego's philosophy, the brand was founded on the intrinsic concept of sustainability, directing development towards creating timeless and resistant clothing, designed to transcend generations. This approach reflects the “Perpetual” mindset that has driven our company since its inception. By adopting the Alpha Ego, you become part of a story that defies the ephemeral.</p>
+      </div>
+      
+      <div class="card card2">
+        <img src="./img/guts.png" alt="guts">
+        <h2>Goal</h2>
+      	<p>This collection does not just express a fitness lifestyle, but transcends into a more mysterious and daring realm. Each piece is more than just a garment; it is a symbol of resilience, destined to stand the test of time both in the world of fashion and in the universe of heroes and anti-heroes.</p>
+      </div>
+			<div class="card card3">
+        <img src="./img/spiderMan.jpg" alt="spiderMan">
+        <h2>Timelessness</h2>
+      	<p> This perennial quest is not limited to the traditional concept of fashion, but transcends into a deeper narrative, where durability and timelessness converge. When you wear our gym clothes, you not only embody a distinctive style, but you also become part of a story that resonates through the ages - an eternal quest for endurance and lasting style.</p>
+      </div>
+    </div>
+    <div class="separator">
+      <h2>About Our Clothing Collection </h2>
+    </div> 
+    <div class="clothing-collection">
+      <div class="clothing-item">
+      	<video id="clothing-video" autoplay loop> 
+       		 <source src="./video/beserkSweatshirtVideo.mp4" type="video/mp4">
+     		</video>
+        <p>Beserk Black Sweatshirt</p>
+        <button class="btn-view"><a href="sweatshirt.html" class="link-view">View More</a></button>
+    	</div>
+      <div class="clothing-item">
+      	<img src="./clothes/Tshirt/beserkTshirtBlackRed.jpg">
+        <p>Beserk Black T-shirt </p>
+        <button class="btn-view"><a href="tshirt.html" class="link-view">View More</a></button>
+      </div>
+      <div class="clothing-item">
+      	<img src="./clothes/short/beserkShortBlackRed.jpg">
+        <p class="description-clothes">Beserk Black Short</p>
+        <button class="btn-view"><a href="short.html" class="link-view">View More</a></button>
+      </div>
+    </div>
+  </main>
+  <footer>
+  <div id="footer-content">
+    <div id="footer-contacts">
+      <h1>Alpha Ego</h1>
+      <p>It's about your autoestim</p>
+      <div id="footer-social-media">
+        <a href="#" class="footer-link" id="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="footer-link" id="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="footer-link" id="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+      <ul class="footer-list">
+        <li>
+          <h3>Benefits</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Tech</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Style</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Comfort</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3>Products</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Clothes </a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Sweatshirt</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Adornment</a>
+        </li>
+      </ul>
+      <div id="footer-subscribe">
+      <h3>Subscribe</h3>
+        <p>To get notified about new products and promotions</p>
+        <div id="input-group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+	<div id="footer-copyright">
+      <p>Copyright &copy; 2023 all rigths reserved!</p>
+      <p>By: Jonas Kaick</p>
+    </div>
+  </footer>
+  <script src="./js/script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>

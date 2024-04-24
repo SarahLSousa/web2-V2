@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Alpha Ego | Home </title>
+  <link href="./css/cart.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo-name">
+        <h1>Alpha Ego</h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item clothes"><a href="#" class="nav-link">Clothes▼</a>
+            <ul class="dropdown">
+              <li class="nav-item"><a href="tshirt.html" class="nav-link"> T-Shirts</a></li>
+              <li class="nav-item"><a href="sweatshirt.html" class="nav-link">Sweatshirt</a></li>
+              <li class="nav-item"><a href="short.html" class="nav-link">Shorts</a></li> 
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Production</a></li>
+         <a href="#"><i class="fa-solid fa-cart-shopping nav-item" id="cart-shopping"></i></a>
+        </ul>
+      </div>
+      <a href="creatAccount.html"><i class="fa-solid fa-user nav-item" id="login"></i></a>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="./icons/menu.svg"></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item clothes"><a href="#" class="nav-link">Clothes <span>▼</span></a>
+          <ul class="dropdown">
+              <li class="nav-item"><a href="tshirt.html" class="nav-link"> T-Shirts</a></li>
+              <li class="nav-item"><a href="sweatshirt.html" class="nav-link">Sweatshirt</a></li>
+              <li class="nav-item"><a href="short.html" class="nav-link">Shorts</a></li> 
+          </ul>
+        </li>
+        <li class="nav-item" id="mobile-contact"><a href="#" class="nav-link">Contact Us</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">How it is producted?</a></li>
+
+      </ul>
+  
+    </div>
+  </header>
+  <!-- Meio -->
+  <main>
+  	<div class="checkOut">
+    <!-- <div class="header-checkOut">
+    	<div class="phases">
+     		<div id="phase-buy">
+          <div id="phase1">
+          	<h1>1</h1>
+          </div>
+          <p class="text-phase">Sacola</p>
+        </div>
+        <div id="phase-buy">
+          <div id="phase1">
+          	<h1>2</h1>
+          </div>
+          <p class="text-phase">Entrega</p>
+        </div>
+        <div id="phase-buy">
+          <div id="phase1">
+            <h1>3</h1>
+          </div>
+          <p class="text-phase">Pagamento</p>
+        </div>
+      </div>
+    </div>-->
+      
+      <div class="checkOut-buy">
+        <div class="checkOut-buy-content">
+        	<img src="./clothes/Tshirt/beserkTshirtBlackRed.jpg" class="img-buy">
+        	<div class="checkOut-buy-text">
+          	<h3>T-shirt spiderman black</h3>
+         	  <p>R$ 100,00</p>
+          	<select>
+            	<option>1</option>
+            	<option>2</option>
+            	<option>3</option>
+            	<option>4</option>
+            	<option>5</option>
+            	<option>6</option>
+            	<option>7</option>
+            	<option>8</option>
+            	<option>9</option>
+            	<option>10</option>
+          	</select>
+          </div>
+        </div>
+    
+      </div>
+      <div class="checkOut-buy">
+        <div class="checkOut-buy-content">
+        	<img src="./clothes/Tshirt/beserkTshirtBlackRed.jpg" class="img-buy">
+        	<div class="checkOut-buy-text">
+          	<h3>T-shirt spiderman black</h3>
+         	  <p>R$ 100,00</p>
+          	<select>
+            	<option>1</option>
+            	<option>2</option>
+            	<option>3</option>
+            	<option>4</option>
+            	<option>5</option>
+            	<option>6</option>
+            	<option>7</option>
+            	<option>8</option>
+            	<option>9</option>
+            	<option>10</option>
+          	</select>
+          </div>
+        </div>
+      </div>
+
+      <div class="checkOut-finalBuy"> 
+        <div class="finalBuy-text">
+          <h4><span id="NumProd">12</span>PRODUTOS</h4>
+          <h4><span class="valorProd">R$ 200,00</span></h4>
+        </div>
+        <div class="finalBuy-text">
+           <!-- fins ilustrativos -->
+        	<p>Entrega</p>
+          <p>R$ 0,00</p>
+        </div>
+			  <div class="finalBuy-text">
+          <h5>Total</h5>
+          <h5 class="valorProd">R$ 200,00</h5>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+    
+  <!-- Fim do meio -->
+  <footer>
+  <div id="footer-content">
+    <div id="footer-contacts">
+      <h1>Alpha Ego</h1>
+      <p>It's about your autoestim</p>
+      <div id="footer-social-media">
+        <a href="#" class="footer-link" id="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="footer-link" id="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="footer-link" id="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+      <ul class="footer-list">
+        <li>
+          <h3>Benefits</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Tech</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Style</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Comfort</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <li>
+          <h3>Products</h3>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Clothes </a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Sweatshirt</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">Adornment</a>
+        </li>
+      </ul>
+      <div id="footer-subscribe">
+      <h3>Subscribe</h3>
+        <p>To get notified about new products and promotions</p>
+        <div id="input-group">
+          <input type="email" id="email">
+          <button>
+            <i class="fa-regular fa-envelope"></i>
+          </button>
+        </div>
+      </div>
+  </div>
+  <div id="footer-copyright">
+      <p>Copyright &copy; 2023 all rigths reserved!</p>
+      <p>By: Jonas Kaick</p>
+    </div>
+  </footer>
+  <script src="./js/cart.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
