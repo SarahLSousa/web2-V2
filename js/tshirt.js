@@ -175,15 +175,14 @@ function somaItens() {
     span.forEach((i) => {
       soma1 = 0
       soma2 = 0
-      console.log(i.parentElement.parentElement.children[1].value)
-      soma1 = i.parentElement.parentElement.children[1].value
-      soma2 = i.innerText
-      soma2 = parseFloat(soma2) * soma1
-      soma = soma+soma2
-      console.log(soma)
+      console.log(i.parentElement.parentElement.children[1].value);
+      soma1 = i.parentElement.parentElement.children[1].value;
+      soma2 = i.innerText;
+      soma2 = parseFloat(soma2) * soma1;
+      soma = soma+soma2;
+      console.log(soma);
       CartFinishPrice.innerText = `$${soma},00`
-      console.log(BtnCart)
-
+      console.log(BtnCart);
 
     })
   }
@@ -194,8 +193,8 @@ function somaItens() {
 
 
 function deleteCard(e){
-  e.parentElement.remove()
+  e.parentElement.remove();
 }
 function openCarrinho(){
-  Carrinho.classList.toggle('ativo')
+  Carrinho.classList.toggle('ativo');
 }
