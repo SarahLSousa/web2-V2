@@ -2,31 +2,91 @@
     {
         "id": "0",
         "name": "Beserk T-shirt Black & White",
-        "img": "beserkTshirtBlackWhite.jpg"
+        "img": "beserkTshirtBlackWhite.png"
     },
     {
         "id": "1",
         "name": "Beserk T-shirt Black & Red",
-        "img": "beserkTshirtBlackRed.jpg"
+        "img": "beserkTshirtBlackRed.png"
     },
     {
         "id": "2",
         "name": "Venom T-shirt Black & White",
-        "img": "venomTshirtBlackWhite.jpg"
+        "img": "venomTshirtBlackWhite.png"
     },
     {
         "id": "3",
         "name": "SpiderMan T-shirt White",
-        "img": "spidermanTshirtWhiteBlack.jpg"
+        "img": "spidermanTshirtWhiteBlack.png"
     },
     {
         "id": "4",
         "name": "Beserk T-shirt Grey",
-        "img": "beserkTshirtGreyBlack.jpg"
+        "img": "beserkTshirtGreyBlack.png"
     },
     {
         "id": "5",
         "name": "SpiderMan T-shirt Black",
-        "img": "spidermanTshirtBlackRed.jpg"
+        "img": "spidermanTshirtBlackRed.png"
+    },
+    {
+        "id": "6",
+        "name": "Beserk Sweatshirt White & Black",
+        "img": "beserkSweatshirtBackWhite.jpg"
+    },
+    {
+        "id": "7",
+        "name": "Beserk Sweatshirt Black",
+        "img": "beserkSweatshirtBlack.jpg"
+    },
+    {
+        "id": "8",
+        "name": "Venom Sweatshirt Black",
+        "img": "jujutsuSweatshirtBlack.jpg"
+    },
+    {
+        "id": "9",
+        "name": "SpiderMan Sweatshirt White",
+        "img": "jujutsuSweatshirtWhite.jpg"
+    },
+    {
+        "id": "10",
+        "name": "Beserk Sweatshirt Black",
+        "img": "spidermanSweatshirtBlackWhite.jpg"
+    },
+    {
+        "id": "11",
+        "name": "SpiderMan Sweatshirt Red",
+        "img": "spidermanSweatshirtBlackRed.jpg"
+    },
+    {
+        "id": "12",
+        "name": "Beserk Black Short",
+        "img": "beserkShortBlackGrey.jpg"
+    },
+    {
+        "id": "13",
+        "name": "Beserk White Short",
+        "img": "beserkShortWhiteBlack.jpg"
+    },
+    {
+        "id": "14",
+        "name": "Beserk Purple Short",
+        "img": "beserkShortBlackPurple.jpg"
+    },
+    {
+        "id": "15",
+        "name": "Beserk Red Short",
+        "img": "beserkShortBlackRed.jpg"
+    },
+    {
+        "id": "16",
+        "name": "Beserk Black-White Short",
+        "img": "beserkShortBlackWhite.jpg"
+    },
+    {
+        "id": "17",
+        "name": "Baki Short Black",
+        "img": "bakiShortBlack.jpg"
     }
 ]

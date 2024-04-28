@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.carrinho {
+    width: 250px;
+    height: 100%;
+    background-color: #0e0c0cee;
+    padding: 10px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: fixed !important;
+    right: 0;
+    z-index: 231;
+    gap: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 20px;
+    transition: 1s all ease-in-out;
+}
+.carrinho.ativo {
+    transition: 1s all ease-in-out;
+    display: flex;
+    
+}
+
+.carrinho::-webkit-scrollbar{
+    width: 5px;
+    
+}
+.carrinho::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgb(107, 107, 107);
+    border: 3px solid transparent;
+}
+.carrinho h1{
+     font-size: 25px;
+}
+.cart-cloth-space{
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart-cloth {
+    padding: 5px;
+    width: 100%;
+    position: relative;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 10px;
+    gap: 6px;
+    transition: 1s all ease-in-out;
+}
+
+.cart-cloth img {
+    height: 90%;
+    background-color: none;
+}
+.cart-cloth-info {
+    color: #0e0c0c;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 3px;
+}
+
+.cart-cloth-info select{
+    width: 40px;
+}
+
+.cart-cloth-info h2{
+    font-weight: 600;
+    font-size: 12px;
+}
+.cart-price{
+    font-size: 13px;
+}
+
+.cart-remove-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cart-finish-button {
+    width: 160px ;
+    min-height: 60px !important;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+}
+
+.cart-finish{
+    border-top: #ffffff 1px solid;
+    width: 100%;
+    padding:    0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cart-finish-price{
+    font-size: 35px;
+}
