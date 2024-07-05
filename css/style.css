@@ -55,21 +55,22 @@ header {
   margin: 0 1rem;
   cursor: pointer;
 }
+
 i {
   color: white;
 }
 #login {
   size: 50px;
   border: 2px solid white;
-	padding: 10px;
-
+  padding: 10px;
 }
+
 .nav-link {
   text-decoration: none;
   color: #fff;
   font-size: 1.1rem;
   font-weight: 400;
-  
+  padding-bottom: 10px;
 }
 .nav-link:hover {
   color: #ff0000; 
@@ -92,7 +93,9 @@ i {
 .clothes:hover .dropdown {
   display: block;
   z-index: 1;
+  margin-top: 10px;
 }
+
 .dropdown li {
   padding: 0.5rem 1rem;
   cursor: pointer;
